@@ -20,14 +20,6 @@
     {
       "matchManagers": ["github-actions"],
       "groupName": "GitHub Actions Updates"
-    },
-    {
-      "matchManagers": ["maven"],
-      "groupName": "Java Maven Updates"
-    },
-    {
-      "matchManagers": ["gradle"],
-      "groupName": "Java Gradle Updates"
     }
   ],
   "ignorePaths": ["**/node_modules/**", "**/artifacts/**", "**/test/**"],
