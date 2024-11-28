@@ -3,25 +3,26 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
-      "managers": ["npm"],
+      "matchManagers": ["npm"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Minor and Patch Updates"
     },
     {
-      "managers": ["npm"],
+      "matchManagers": ["npm"],
       "matchUpdateTypes": ["major"],
       "groupName": "Major Updates",
       "schedule": ["before 9am on monday"]
     },
     {
-      "managers": ["dockerfile"],
+      "matchManagers": ["dockerfile"],
       "groupName": "Docker Updates"
     },
     {
-      "managers": ["github-actions"],
+      "matchManagers": ["github-actions"],
       "groupName": "GitHub Actions Updates"
     }
   ],
-  "ignorePaths": ["**/node_modules/**", "**/artifacts/**", "**/test/**"]
+  "ignorePaths": ["**/node_modules/**", "**/artifacts/**", "**/test/**"],
+  "forkProcessing": "enabled"
 }
 
