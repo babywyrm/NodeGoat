@@ -28,3 +28,4 @@ jobs:
           extraArgs: "--autodiscover"
         env:
           RENOVATE_AUTODISCOVER: "true"
+          RENOVATE_RESET_CACHE: true
