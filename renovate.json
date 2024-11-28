@@ -1,6 +1,7 @@
 {
   "extends": ["config:recommended"],
   "rangeStrategy": "bump",
+  "recreateClosed": true,
   "packageRules": [
     {
       "matchManagers": ["npm"],
