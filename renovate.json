@@ -1,0 +1,27 @@
+{
+  "extends": ["config:recommended"],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "managers": ["npm"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Minor and Patch Updates"
+    },
+    {
+      "managers": ["npm"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "Major Updates",
+      "schedule": ["before 9am on monday"]
+    },
+    {
+      "managers": ["dockerfile"],
+      "groupName": "Docker Updates"
+    },
+    {
+      "managers": ["github-actions"],
+      "groupName": "GitHub Actions Updates"
+    }
+  ],
+  "ignorePaths": ["**/node_modules/**", "**/artifacts/**", "**/test/**"]
+}
+
