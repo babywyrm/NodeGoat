@@ -6,7 +6,7 @@ services:
   - xvfb
 node_js:
   - v8
-  - v10
+  - 10.24.1
   - v12
 
 ## Missing dependency for Cypress https://github.com/cypress-io/cypress/issues/4069
