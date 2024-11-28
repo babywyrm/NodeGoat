@@ -2,6 +2,7 @@
   "extends": ["config:recommended"],
   "rangeStrategy": "bump",
   "recreateWhen": "always",
+  "recreateClosed": "true",
   "pruneStaleBranches": "true",
   "packageRules": [
     {
