@@ -1,7 +1,7 @@
 {
   "extends": ["config:recommended"],
   "rangeStrategy": "bump",
-  "recreateClosed": true,
+  "recreateWhen": "always",
   "packageRules": [
     {
       "matchManagers": ["npm"],
@@ -34,3 +34,4 @@
   "ignorePaths": ["**/node_modules/**", "**/artifacts/**", "**/test/**"],
   "forkProcessing": "enabled"
 }
+
