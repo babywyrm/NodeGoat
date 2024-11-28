@@ -34,4 +34,3 @@
   "ignorePaths": ["**/node_modules/**", "**/artifacts/**", "**/test/**"],
   "forkProcessing": "enabled"
 }
-
