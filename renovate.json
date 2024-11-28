@@ -2,8 +2,7 @@
   "extends": ["config:recommended"],
   "rangeStrategy": "bump",
   "recreateWhen": "always",
-  "recreateClosed": "true",
-  "pruneStaleBranches": "true",
+  "rebaseStalePrs": true,
   "packageRules": [
     {
       "matchManagers": ["npm"],
