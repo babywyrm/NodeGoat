@@ -7,7 +7,7 @@ services:
 node_js:
   - v8
   - v10
-  - v12
+  - 12.22.12
 
 ## Missing dependency for Cypress https://github.com/cypress-io/cypress/issues/4069
 addons:
