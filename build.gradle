@@ -9,6 +9,6 @@ repositories {
 dependencies {
     implementation 'org.apache.logging.log4j:log4j-core:2.14.0' // Log4Shell vulnerability
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.10.1' // CVE-2020-10672
-    implementation 'org.springframework:spring-core:4.3.13.RELEASE' // CVE-2018-1274
+    implementation 'org.springframework:spring-core:6.2.1' // CVE-2018-1274
 }
 
